@@ -1,0 +1,115 @@
+
+Call:
+lm(formula = turbidity_sensor ~ turbidity, data = validationdata_wide)
+
+Residuals:
+      1       2       3       4       5 
+-0.7568 -0.0258  0.4256  0.5374 -0.1804 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.13463    0.50045  -0.269    0.805    
+turbidity    1.15505    0.01358  85.078 3.58e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5988 on 3 degrees of freedom
+Multiple R-squared:  0.9996,	Adjusted R-squared:  0.9994 
+F-statistic:  7238 on 1 and 3 DF,  p-value: 3.579e-06
+
+[1] "###############################"
+
+Call:
+lm(formula = tss ~ turbidity, data = validationdata_wide)
+
+Residuals:
+      1       2       3       4       5 
+ 1.5988 -1.3548 -3.2876 -0.3269  3.3705 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  7.27687    2.49157   2.921  0.06147 . 
+turbidity    0.42463    0.06759   6.282  0.00814 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.981 on 3 degrees of freedom
+Multiple R-squared:  0.9294,	Adjusted R-squared:  0.9058 
+F-statistic: 39.47 on 1 and 3 DF,  p-value: 0.008144
+
+[1] "###############################"
+
+Call:
+lm(formula = tss ~ turbidity, data = validationdata_wide)
+
+Residuals:
+      1       2       3       4       5 
+ 1.5988 -1.3548 -3.2876 -0.3269  3.3705 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  7.27687    2.49157   2.921  0.06147 . 
+turbidity    0.42463    0.06759   6.282  0.00814 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.981 on 3 degrees of freedom
+Multiple R-squared:  0.9294,	Adjusted R-squared:  0.9058 
+F-statistic: 39.47 on 1 and 3 DF,  p-value: 0.008144
+
+[1] "###############################"
+
+Call:
+lm(formula = 100 * afdm/tss ~ turbidity, data = validationdata_wide)
+
+Residuals:
+      1       2       3       4       5 
+  6.466   6.077   7.732 -12.757  -7.517 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  40.5720     9.1261   4.446   0.0212 *
+turbidity    -0.3271     0.2476  -1.321   0.2782  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.92 on 3 degrees of freedom
+Multiple R-squared:  0.3678,	Adjusted R-squared:  0.157 
+F-statistic: 1.745 on 1 and 3 DF,  p-value: 0.2782
+
+[1] "###############################"
+
+Call:
+lm(formula = secchi ~ log(turbidity), data = validationdata_wide)
+
+Residuals:
+       1        2        3        4        5 
+-0.03246  0.05291  0.06727 -0.04259 -0.04513 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     1.29244    0.15478   8.350  0.00360 **
+log(turbidity) -0.28755    0.04681  -6.143  0.00868 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.06384 on 3 degrees of freedom
+Multiple R-squared:  0.9263,	Adjusted R-squared:  0.9018 
+F-statistic: 37.73 on 1 and 3 DF,  p-value: 0.008679
+
+[1] "###############################"
+
+Formula: y ~ 1/(b + x^c)
+
+Parameters:
+   Estimate Std. Error t value Pr(>|t|)    
+b -2.079359   0.091391  -22.75 0.000186 ***
+c  0.521155   0.008869   58.76 1.09e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01123 on 3 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 3.003e-07
+

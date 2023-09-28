@@ -1,0 +1,39 @@
+
+Call:
+lm(formula = ndti ~ log(turbidity_ntu), data = data_use)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.093525 -0.012990  0.001675  0.015494  0.115807 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)        -0.7432719  0.0032593  -228.0   <2e-16 ***
+log(turbidity_ntu)  0.1915607  0.0009085   210.9   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.02111 on 2751 degrees of freedom
+Multiple R-squared:  0.9417,	Adjusted R-squared:  0.9417 
+F-statistic: 4.446e+04 on 1 and 2751 DF,  p-value: < 2.2e-16
+
+[1] "################################"
+
+Call:
+lm(formula = ndti ~ turbidity_ntu, data = data_use)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.114411 -0.021280  0.007467  0.030465  0.075539 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   -2.408e-01  1.779e-03  -135.4   <2e-16 ***
+turbidity_ntu  4.646e-03  4.213e-05   110.3   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03757 on 2751 degrees of freedom
+Multiple R-squared:  0.8155,	Adjusted R-squared:  0.8154 
+F-statistic: 1.216e+04 on 1 and 2751 DF,  p-value: < 2.2e-16
+

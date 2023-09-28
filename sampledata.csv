@@ -1,0 +1,21 @@
+system,site,lat,lon,datetime,variable,value,unit
+Lake Arrowhead,AH1,33.74623,-98.3876,2022-08-12,turbidity,15.6,NTU
+Lake Arrowhead,AH1,33.74623,-98.3876,2022-08-12,tss,15.5,mg/L
+Lake Arrowhead,AH1,33.74623,-98.3876,2022-08-12,afdm,6.5,mg/L
+Lake Arrowhead,AH2,33.68267,-98.4266,2022-08-12,turbidity,67.3,NTU
+Lake Arrowhead,AH2,33.68267,-98.4266,2022-08-12,tss,34.5,mg/L
+Lake Arrowhead,AH2,33.68267,-98.4266,2022-08-12,afdm,8.5,mg/L
+Lake Arrowhead,AH3,33.76283,-98.3658,2022-08-12,turbidity,11.8,NTU
+Lake Arrowhead,AH3,33.76283,-98.3658,2022-08-12,tss,9,mg/L
+Lake Arrowhead,AH3,33.76283,-98.3658,2022-08-12,afdm,4,mg/L
+Lake Arrowhead,AH4,33.70428,-98.3622,2022-08-12,turbidity,27.2,NTU
+Lake Arrowhead,AH4,33.70428,-98.3622,2022-08-12,tss,18.5,mg/L
+Lake Arrowhead,AH4,33.70428,-98.3622,2022-08-12,afdm,3.5,mg/L
+Lake Arrowhead,AH5,33.67108,-98.3864,2022-08-12,turbidity,33.8,NTU
+Lake Arrowhead,AH5,33.67108,-98.3864,2022-08-12,tss,25,mg/L
+Lake Arrowhead,AH5,33.67108,-98.3864,2022-08-12,afdm,5.5,mg/L
+Lake Arrowhead,AH1,33.74623,-98.3876,2022-08-12,secchi,0.47,m
+Lake Arrowhead,AH2,33.68267,-98.4266,2022-08-12,secchi,0.135,m
+Lake Arrowhead,AH3,33.76283,-98.3658,2022-08-12,secchi,0.65,m
+Lake Arrowhead,AH4,33.70428,-98.3622,2022-08-12,secchi,0.3,m
+Lake Arrowhead,AH5,33.67108,-98.3864,2022-08-12,secchi,0.235,m
