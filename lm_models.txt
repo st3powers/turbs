@@ -4,18 +4,18 @@ lm(formula = turbidity_sensor ~ turbidity, data = validationdata_wide)
 
 Residuals:
       1       2       3       4       5 
--0.7568 -0.0258  0.4256  0.5374 -0.1804 
+-0.6731  0.1107  0.5894  0.4534 -0.4803 
 
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
-(Intercept) -0.13463    0.50045  -0.269    0.805    
-turbidity    1.15505    0.01358  85.078 3.58e-06 ***
+(Intercept) -0.54718    0.53921  -1.015    0.385    
+turbidity    1.17613    0.01463  80.404 4.24e-06 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.5988 on 3 degrees of freedom
-Multiple R-squared:  0.9996,	Adjusted R-squared:  0.9994 
-F-statistic:  7238 on 1 and 3 DF,  p-value: 3.579e-06
+Residual standard error: 0.6452 on 3 degrees of freedom
+Multiple R-squared:  0.9995,	Adjusted R-squared:  0.9994 
+F-statistic:  6465 on 1 and 3 DF,  p-value: 4.24e-06
 
 [1] "###############################"
 
