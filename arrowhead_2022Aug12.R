@@ -62,8 +62,8 @@ summary(logEstimate)
 print("################################")
 summary(lm_turbndti)
 sink()
-  
-ggsave(filename = paste("turb_ndti_plot_nocolor.png",sep=""),
+
+ggsave(filename = paste("turb_ndti_plot.png",sep=""),
     plot = turb_ndti_plot_nocolor, width = 4.5, height = 4.3, units = "in",dpi=600)
   
 ########################################
@@ -429,7 +429,5 @@ print(summary(linlog))
 print("###############################")
 print(summary(decay))
 sink()
-
-
 
     
